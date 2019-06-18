@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.typewriter > .wrap {
+  color: #000;
+  font-family: fantasy;
+}
+
+* {
+  color: #000;
+  text-decoration: none;
+}
