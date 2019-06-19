@@ -2,7 +2,7 @@ var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
+        this.period = parseInt(period, 1) || 1000;
         this.txt = '';
         this.tick();
         this.isDeleting = false;
@@ -21,7 +21,7 @@ var TxtType = function(el, toRotate, period) {
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
         var that = this;
-        var delta = 200 - Math.random() * 100;
+        var delta = 100 - Math.random() * 100;
 
         if (this.isDeleting) { delta /= 2; }
 
@@ -31,7 +31,7 @@ var TxtType = function(el, toRotate, period) {
         } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
-        delta = 500;
+        delta = 100;
         }
 
         setTimeout(function() {
@@ -53,3 +53,7 @@ var TxtType = function(el, toRotate, period) {
         css.type = "text/css";
         document.body.appendChild(css);
     };
+
+    setTimeout(function () {
+      window.location.href = "mainPage/indexMain.html";
+    }, 8900 + 225);
