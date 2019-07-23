@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f6f6f6;
+  background: url('../images/clouds.jpg');
   color: #000;
   cursor: auto;
 }
@@ -13,12 +13,9 @@ body {
   display: grid;
   min-height: 100px;
   grid-auto-flow: column;
-  background-color: #fcfcfc;
+  background: url('../images/clouds.jpg');
   grid-gap: 1.5em;
   padding: 0 4vh;
-  -webkit-box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
-  -moz-box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
-  box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
 }
 
 #logo {
@@ -42,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #004ecb;
 }
 
 ::-webkit-scrollbar {

@@ -2,6 +2,7 @@
   color: #000;
   text-decoration: none;
   font-family: monospace;
+
 }
 
 body {
@@ -9,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f6f6f6;
+  background: url('../images/clouds.jpg');
   color: #000;
   cursor: auto;
 }
