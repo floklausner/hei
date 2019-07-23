@@ -169,7 +169,7 @@ fieldset {
   left: 50%;
   bottom: -0.0625rem;
   position: absolute;
-  background: #D71A00;
+  background: #004ecb;
   -webkit-transition: left 0.28s ease, width 0.28s ease;
   transition: left 0.28s ease, width 0.28s ease;
   z-index: 2;
@@ -204,7 +204,7 @@ fieldset {
 .form-group textarea:valid,
 .form-group textarea.form-file,
 .form-group textarea.has-value {
-  color: #333;
+  color: #004ecb;
 }
 .form-group select ~ .control-label,
 .form-group input:focus ~ .control-label,
@@ -228,7 +228,7 @@ fieldset {
 .form-group select:focus ~ .control-label,
 .form-group input:focus ~ .control-label,
 .form-group textarea:focus ~ .control-label {
-  color: #D71A00;
+  color: #004ecb;
 }
 .form-group select:focus ~ .bar::before,
 .form-group input:focus ~ .bar::before,
@@ -242,7 +242,7 @@ fieldset {
   background: currentColor;
   border: 1px solid currentColor;
   font-size: 1.1rem;
-  color: #D71A00;
+  color: #004ecb;
   padding: 0.75rem 3rem;
   width:400px;
   cursor: pointer;
@@ -269,8 +269,8 @@ fieldset {
 #button::before {
   content: "";
   position: absolute;
-  background: #AF1500;
-  border: 50vh solid #D71A00;
+  background: #004ecb;
+  border: 50vh solid #004ecb;
   width: 30vh;
   height: 30vh;
   border-radius: 50%;
@@ -283,7 +283,7 @@ fieldset {
   transform: translate(-50%, -50%) scale(0);
 }
 #button:hover {
-  color: #AF1500;
+  color: #2962ff;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12),
     0 3px 5px -1px rgba(0, 0, 0, 0.2);
 }
